@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Ma première page html</title>
+    </head>
+    
+    <body>
+        <h1 id="mon-ancre" style="color: red;">Les principales balises (titre principale placé dans l'élément h1)</h1>
+        <h2>Les balises de type block</h2>
+        <h3>Un sous-titre de niveau 3</h3>
+        <p>un paragraphe</p>
+        <p>Un second paragraphe</p>
+        <h3>Les listes</h3>
+        <p>Pour écrire les caractères < (inférieur à), > (supérieur à) et & (esperluette) il faut utiliser des entités HTML.</p>
+<pre>
+<p>terme1
+   Définition 1</p>
+<p>terme2
+   Définition 2</p>
+</pre>
+        <ol>
+            <li>Une</li>
+            <li>liste</li>
+            <li>ordonné</li>
+        </ol>
+        <ul>
+            <li>Une</li>
+            <li>Liste</li>
+            <li>non</li>
+            <li>Ordonné</li>
+        </ul>
+        
+        <ol>
+            <li>une</li>
+            <li>Liste</li>
+                <ul>
+                    <li>2.1</li>
+                    <li>2.2</li>
+                    <li>2.3</li>
+                    <li>2.4</li>
+                </ul>
+            <li>3(attention l'élement &lt; ul &gt; ne peut contenir que des) </li>
+        </ol>
+        
+    <h2> Les balises de type inline</h2>
+    <p style="color: green;">Une <strong>portion de texte importante</strong> placée dans l'élement &lt;strong&gt;</p>
+    <p>Une <em>portion de texte emphasé</em> placée dans l'element em</p>
+    
+    <ul>
+        <li><p>un hyper-lien vers <a href="https://www.3wa.fr">3W Academy</a></p></li>
+        <li>Une autre page du site internet : <a href="lien_vers_page_contact">nous contacter</a></li>
+        <li>Une adresse email : <a href="mailto:contact@3wa.fr">Contact@3wa.fr</a></li>
+        <li>Un numéro de téléphone : <a href="tel:0175434242">01 75 43 42 42</a></li>
+        <li>Une ancre sur la page : <a href="#mon-ancre">Vers une ancre</a>. Ce type de lien est souvent utilisé dans la naviguation sur les sites internet one page ou pour revenir en haut de la page</li>
+    </ul>
+
+    <p>Un lien avec l'attribut target="_blank" s'ouvre dans un nouvel onglet : <a href="https://www.3wa.fr" target="_blank">Mon lien</a></p>
+    
+    <p>Une image <img src="logo-3wa.png" alt="Min image"> dans un paragraphe (observer l'alignenemt verticale). L'attribut alt est obligatoire</p>
+    <p>une image dans un lien <a href="https://www.3wa.fr"> <img src="logo-3wa.png" target="_blank"></a></p>
+    <p>Un paragraphe avec un <br> saut de ligne </p>
+    <p>Une abréviation avec l'élément &lt;abbr&gt; : le code d'une page web est écrit en <abbr title="HyperText Markup Language">HTML</abbr> avec l'attribut title</p>
+    <p>Une <dfn title="ma definiton">definition</dfn> avec l'elément &lt;dfn&gt;</p>
+    <p>L'utilisation de l'élément &lt;sub&gt; pour écrire des indices, par exemple dans une formule chimique : </p>
+    <p>Utilisation de l'élement &lt;sup&gt; pour écrire des exposant, par exemple dans une formule mathématique:  </p>
+    <p>L'utilisation de l'élement &lt;ins&gt;  pour indiquer <ins>une portion texte insérée</ins> et de l'élement &lt;del&gt; pour indiquer <del>une portion de texte supprimée</del></p>
+    <p>L'élement  <mark>&lt;mark&gt;</mark> represente un texte mis en surbrillance à cause de sa pertinence dans le contexte, par exemple lors d'une recherche d'un mot clé dans le contenu d'un site web. Il ne doit pas être utilisé à des fins de coloration synthaxite.</p>
+    <p>Un exemple de code informatique (ici du code JS) dans un element &lt;code&gt; et un élement &lt;pre&gt;</p>
+    <pre>
+        <code>
+            for(let i = 0; i < 5; i++){
+            cnsole.log(i)
+            }
+        </code>
+    </pre>
+    
+    <p> Ce <span style="color: green"> texte est contenu dans un élement</span> span. Cet élement n'a pas de sens particulier, il est systématiquement utilisé avec du style CSS</p>
+    
+    <h2> Bonnes Pratiques</h2>
+    </body>
+</html>
